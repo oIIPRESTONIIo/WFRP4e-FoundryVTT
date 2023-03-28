@@ -11396,7 +11396,7 @@ border-image-outset: 0px !important;
 
   /* ================== 1. MANAGE MODULES ===================== */
 
-    #module-management .window-header {
+    /* #module-management .window-header {
        justify-content: flex-end;
        padding: 0px 8px;
     }
@@ -11411,7 +11411,7 @@ border-image-outset: 0px !important;
       border-top: 3px double #b7b7b747;
       border-bottom: 3px double #b7b7b747;
       overflow-y: auto;
-      /*height: calc(100% - 76px);*/
+      height: calc(100% - 76px);
     }
       #module-management .window-content .modules-list .module {
         padding: 6px;
@@ -11510,11 +11510,11 @@ border-image-outset: 0px !important;
       #module-management .window-content .directory-list.package-list .package-description,
         #module-management .window-content .directory-list.package-list .package-title {
         color:#CCC
-      }
+      } */
 
 
   /* ================== 2. CONFIGURE SETTINGS ================= */
-    #client-settings {
+    /* #client-settings {
       border: 1px solid blue;
       border-width: 10px;
       border-image: url(../ui/game-settings-border.webp) 5 repeat;
@@ -11532,7 +11532,7 @@ border-image-outset: 0px !important;
     background: none;
     justify-content: flex-end;
     position: relative;
-    /* top: 38px; */
+    top: 38px;
     }
       #client-settings .window-header h4 {
         display: none;
@@ -11554,7 +11554,7 @@ border-image-outset: 0px !important;
         margin: 0px 0px 0px 0px;
         border: none;
         background: none;
-        /* box-shadow: inset 0px 0px 4px black; */
+        box-shadow: inset 0px 0px 4px black;
         overflow-y: unset;
       }
       #client-settings section.content {
@@ -11768,10 +11768,10 @@ border-image-outset: 0px !important;
         font-family: CaslonPro;
         font-weight: 500;
         font-size: var(--font-size-14);
-    }
+    } */
 
   /* ================== 3. GAME CONTROLS REFERENCE ============ */
-    #controls-reference {
+    /* #controls-reference {
       max-width: 600px;
       max-height: 65vh;
     }
@@ -11819,7 +11819,7 @@ border-image-outset: 0px !important;
         box-shadow: 0px 0px 3px black inset !important;
         position: relative;
         top: 5px;    
-      }
+      } */
 
 /*************************************************************/
 /*************************************************************/
