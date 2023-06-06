@@ -16919,11 +16919,11 @@ hr,
 
 .app.window-app.journal-sheet .journal-entry-page.text blockquote.hook,
   .app.window-app.journal-sheet .journal-entry-page.text section.hook {
-  background: url(../ui/hook-background.webp);
+  /* background: url(../ui/hook-background.webp); */
   background-repeat: repeat;
   background-size: contain;
   border: 25px solid transparent;
-  border-image: url(../ui/hook-border.webp);
+  /* border-image: url(../ui/hook-border.webp); */
   border-image-slice: 45 43 40 45;
   background-clip: content-box;
   padding: 0px;
@@ -16932,7 +16932,7 @@ hr,
 .app.window-app.journal-sheet .journal-entry-page.text blockquote.hook:not(.no-image)::before,
 .app.window-app.journal-sheet .journal-entry-page.text section.hook:not(.no-image)::before
 {
-  background-image: url(../ui/hook.webp);
+  /* background-image: url(../ui/hook.webp); */
   background-size: 73px 43px;
   content: "";
   width: 73px;
